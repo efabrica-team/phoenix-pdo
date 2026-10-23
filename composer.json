@@ -1,0 +1,35 @@
+{
+    "name": "efabrica/phoenix-pdo",
+    "type": "library",
+    "description": "Shared PDO base (abstract adapter, statement wrapper, factory) for Phoenix database migration adapters",
+    "keywords": [
+        "PHP",
+        "Database",
+        "Migrations",
+        "PDO"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.4",
+        "ext-pdo": "*",
+        "efabrica/phoenix-core": "^4.0"
+    },
+    "require-dev": {
+        "ext-pdo_sqlite": "*",
+        "phpunit/phpunit": "^9.5.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phoenix\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Phoenix\\Tests\\": "tests/"
+        }
+    },
+    "suggest": {
+        "efabrica/phoenix-mysql": "MySQL adapter built on this package",
+        "efabrica/phoenix-pgsql": "PostgreSQL adapter built on this package"
+    }
+}
