@@ -1,10 +1,10 @@
 # Phoenix PDO base
 
-Shared PDO base for [Phoenix](https://github.com/efabrica/phoenix-core) database migration adapters: the abstract `Phoenix\Database\Adapter\Pdo\PdoAdapter`, `PdoStatementWrapper` (StatementInterface on top of PDOStatement) and the abstract `PdoAdapterFactory`.
+Shared PDO base for [Phoenix](https://github.com/efabrica-team/phoenix-core) database migration adapters: the abstract `Phoenix\Database\Adapter\Pdo\PdoAdapter`, `PdoStatementWrapper` (StatementInterface on top of PDOStatement) and the abstract `PdoAdapterFactory`.
 
 This package registers no adapter by itself. Install one of the adapters built on it:
-- MySQL: [`efabrica/phoenix-mysql`](https://github.com/efabrica/phoenix-mysql)
-- PostgreSQL: [`efabrica/phoenix-pgsql`](https://github.com/efabrica/phoenix-pgsql)
+- MySQL: [`efabrica/phoenix-mysql`](https://github.com/efabrica-team/phoenix-mysql)
+- PostgreSQL: [`efabrica/phoenix-pgsql`](https://github.com/efabrica-team/phoenix-pgsql)
 
 ```
 composer require efabrica/phoenix-core efabrica/phoenix-mysql
