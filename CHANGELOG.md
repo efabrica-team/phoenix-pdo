@@ -2,6 +2,7 @@
 
 ## [Unreleased]
 ### Changed
+- requires `efabrica/phoenix-core` ^4.1 - adapters built on PdoAdapter have to implement the new abstract method `StructureBehavior::loadViews()` (names of views for `viewExists()` in migrations)
 - phpunit.xml.dist migrated to the PHPUnit 9 configuration schema (`<coverage>` instead of the deprecated `<filter><whitelist>`), the "deprecated schema" warning is gone
 
 ## [1.0.0] - 2026-10-26

@@ -68,6 +68,11 @@ final class SqlitePdoAdapter extends PdoAdapter
         return [];
     }
 
+    protected function loadViews(string $database): array
+    {
+        return [];
+    }
+
     protected function addColumn(MigrationTable $migrationTable, array $column): void
     {
     }

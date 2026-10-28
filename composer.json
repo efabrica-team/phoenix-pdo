@@ -12,7 +12,7 @@
     "require": {
         "php": "^8.4",
         "ext-pdo": "*",
-        "efabrica/phoenix-core": "^4.0"
+        "efabrica/phoenix-core": "^4.1"
     },
     "require-dev": {
         "ext-pdo_sqlite": "*",
